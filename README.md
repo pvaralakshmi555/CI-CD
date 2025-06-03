@@ -5,7 +5,9 @@ This project simulates a real-world software development pipeline, illustrating 
 **🎯 Key Objectives**
 
 ✅ Demonstrate modular code division across team roles 
+
 ✅ Showcase how abstraction drives clean integration and extensibility
+
 ✅ Emulate real-world CI/CD workflows using GitHub
 
 **👥 Team Simulation & Role Responsibilities**
