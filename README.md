@@ -1,4 +1,4 @@
-🚀** Real-World Software Pipeline Simulation Using Python Abstraction**
+**🚀 Real-World Software Pipeline Simulation Using Python Abstraction**
 
 This project simulates a real-world software development pipeline, illustrating how software, data engineering, and ML teams collaborate through a structured, version-controlled, and abstracted codebase.
 
@@ -52,7 +52,9 @@ Students learning modular and layered coding workflows
 ML/Data Engineers integrating YOLOv8 in practical pipelines
 
 📁 Folder Structure bash Copy Edit cicd/
+/n
 ├── Version1.py # Abstract base class (skeleton)
+
 ├── Version2.py # Implements business logic
 ├── main_version2.py # CLI-based pipeline runner
 ├── sample.jpg # Sample input image
