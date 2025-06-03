@@ -15,7 +15,9 @@ This project simulates a real-world software development pipeline, illustrating 
 **Role Responsibility File**
 
 👨‍💼 Senior Developer Defines abstract skeleton using base classes Version1.py 
+
 👨‍💻 Junior Developer Implements core logic via inheritance Version2.py
+
 🧪 Tester / User Runs the complete pipeline through CLI main_version2.py
 
 🔁 Versioned Development Workflow Version Role Description V1 Senior Dev Creates abstract class structure (Version1.py) V2 Junior Dev Implements working logic (Version2.py) V3 Senior Dev Adds new abstract methods for extension V4 Junior Dev Implements added features from V3
@@ -34,9 +36,12 @@ YOLOv8 (Ultralytics) for Object Detection
 
 ⚙️ Getting Started 
 
-🔹 Clone the Repository bash Copy Edit git clone https://github.com/RAVULABHANU/CICD.git cd cicd 
+🔹 Clone the Repository bash Copy Edit git clone https://github.com/pvaralakshmi555/CI-CD.git cd cicd 
+
 🔹 Install Dependencies bash Copy Edit pip install -r requirements.txt 
+
 🔹 Run the Pipeline bash Copy Edit python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt" 
+
 🧠 What You’ll Learn 
 
 🧩 Using abstraction to manage complex systems
