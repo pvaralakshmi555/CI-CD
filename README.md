@@ -1,99 +1,86 @@
-**🚀 Real-World Software Pipeline Simulation Using Python Abstraction**
+# 🚀 Real-World Software Pipeline Simulation using Python Abstraction
+This project simulates a real-world software development pipeline, showcasing how software, data engineering, and ML teams collaborate through structured, versioned, and abstracted codebases.
 
-This project simulates a real-world software development pipeline, illustrating how software, data engineering, and ML teams collaborate through a structured, version-controlled, and abstracted codebase.
+The primary goal is to demonstrate:
 
-**🎯 Key Objectives**
+✅ How code is structured and divided across teams
 
-✅ Demonstrate modular code division across team roles 
+✅ How abstraction ensures clean integration and extensibility
 
-✅ Showcase how abstraction drives clean integration and extensibility
+✅ How GitHub workflows can mimic real-world CI/CD pipeline
 
-✅ Emulate real-world CI/CD workflows using GitHub
+| Role                   | Responsibility                               | File               |
+| ---------------------- | -------------------------------------------- | ------------------ |
+| 👨‍💼 Senior Developer | Designs abstract skeleton using base classes | `Version1.py`      |
+| 👨‍💻 Junior Developer | Inherits and implements core logic           | `Version2.py`      |
+| 🧪 User/Tester         | Executes complete pipeline via CLI           | `main_version2.py` |
 
-**👥 Team Simulation & Role Responsibilities**
+🔁 Versioned Development Flow
 
-**Role Responsibility File**
+| Version | Role       | Description                                       |
+| ------: | ---------- | ------------------------------------------------- |
+|  **V1** | Senior Dev | Abstract base class structure (`Version1.py`)     |
+|  **V2** | Junior Dev | Implements logic over V1 skeleton (`Version2.py`) |
+|  **V3** | Senior Dev | Adds new abstract methods for extended features   |
+|  **V4** | Junior Dev | Implements V3 methods to support new features     |
 
-👨‍💼 Senior Developer Defines abstract skeleton using base classes Version1.py 
+# 🧰 Technologies & Concepts Used
 
-👨‍💻 Junior Developer Implements core logic via inheritance Version2.py
+🔹 Python OOP with Abstract Base Classes (abc)
 
-🧪 Tester / User Runs the complete pipeline through CLI main_version2.py
+🔹 Modular, readable, and scalable code structure
 
-🔁 Versioned Development Workflow Version Role Description V1 Senior Dev Creates abstract class structure (Version1.py) V2 Junior Dev Implements working logic (Version2.py) V3 Senior Dev Adds new abstract methods for extension V4 Junior Dev Implements added features from V3
+🔹 User-friendly Command-Line Interface (CLI) via argparse
 
-🛠️ Technologies & Concepts Used Python OOP with Abstract Base Classes (abc)
+🔹 Git & GitHub for version control and collaboration
 
-Clean, modular, and scalable architecture
+🔹 Object Detection using YOLOv8 (Ultralytics)
 
-Command-Line Interface (CLI) using argparse
+✨ Designed to be intuitive: the user can run the full pipeline without needing to read the internals.
 
-Git & GitHub for version control and collaboration
 
-YOLOv8 (Ultralytics) for Object Detection
+# 📦 How to Run This Project
 
-✨ Designed for clarity — the full pipeline runs via CLI without needing to read internal logic.
+### Step 1: Clone the repository
+git clone https://github.com/VodnalaNaveen/cicd.git
+cd your-repo-name
 
-⚙️ Getting Started 
+### Step 2: Install the dependencies
+pip install -r requirements.txt
 
-🔹 Clone the Repository bash Copy Edit git clone https://github.com/pvaralakshmi555/CI-CD.git cd cicd 
+### Step 3: Run the pipeline from the command line
+python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt"
 
-🔹 Install Dependencies bash Copy Edit pip install -r requirements.txt 
+# 🧠 What You’ll Learn
 
-🔹 Run the Pipeline bash Copy Edit python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt" 
+* 🧩 The power of abstraction in building large-scale systems
 
-🧠 What You’ll Learn 
+* 🏗️ How real-world companies structure codebases for collaboration
 
-🧩 Using abstraction to manage complex systems
+* 🔄 Making code versionable, maintainable, and integration-ready
 
-🏗️ How teams structure codebases for collaboration
+* 🛠️ Real-world practice with GitHub workflows and CLI tools
 
-🔄 Versioned development that’s integration-ready
+# 📍 Ideal For
 
-🛠️ Real-world experience with GitHub workflows & CLI tools
+* Aspiring developers learning software engineering best practices
 
-👨‍🎓 Ideal For Developers exploring best practices in team-based software design
+* Students understanding modular and versioned development
 
-Students learning modular and layered coding workflows
+* Data and ML engineers looking to integrate YOLOv8 into pipelines
 
-ML/Data Engineers integrating YOLOv8 in practical pipelines
+# 📁 Folder Structure Example
 
-📁 Folder Structure bash Copy Edit cicd/
+cicd/
 
-├── Version1.py # Abstract base class (skeleton)
-
-├── Version2.py # Implements business logic
-
-├── main_version2.py # CLI-based pipeline runner
-
-├── sample.jpg # Sample input image
-
-├── requirements.txt # Python dependencies 
-
-└── README.md # Project overview 
-
-📌 Hashtags #SoftwareDevelopment #RealWorldCoding #Python #CI_CD #Abstraction #VersionControl #GitHub #TeamCoding #CleanCode #ModularDesign #LearningByDoing #StudentProject #CareerReady #ObjectDetection #YOLOv8 #CommandLineTools
-
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Jupyter Notebook
-77.6%
- 
-Python
-22.4%
-Footer
+    ├── Version1.py         # Abstract base class (skeleton)
+   
+    ├── Version2.py         # Logic implementation (inherits V1)
+   
+    ├── main_version2.py    # Entry point - CLI-based pipeline runner
+   
+    ├── sample.jpg          # Sample input image
+   
+    ├── requirements.txt    # Python dependencies
+   
+    ├── README.md           # Project overview
