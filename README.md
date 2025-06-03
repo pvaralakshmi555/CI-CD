@@ -49,7 +49,7 @@ cd your-repo-name
 pip install -r requirements.txt
 
 ### Step 3: Run the pipeline from the command line
-python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt"
+python main_version2.py --image_path="sample_img.jpg" --model_path="yolov8n.pt"
 
 # 🧠 What You’ll Learn
 
