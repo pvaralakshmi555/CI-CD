@@ -52,13 +52,17 @@ Students learning modular and layered coding workflows
 ML/Data Engineers integrating YOLOv8 in practical pipelines
 
 📁 Folder Structure bash Copy Edit cicd/
-/n
+
 ├── Version1.py # Abstract base class (skeleton)
 
 ├── Version2.py # Implements business logic
+
 ├── main_version2.py # CLI-based pipeline runner
+
 ├── sample.jpg # Sample input image
+
 ├── requirements.txt # Python dependencies 
+
 └── README.md # Project overview 
 
 📌 Hashtags #SoftwareDevelopment #RealWorldCoding #Python #CI_CD #Abstraction #VersionControl #GitHub #TeamCoding #CleanCode #ModularDesign #LearningByDoing #StudentProject #CareerReady #ObjectDetection #YOLOv8 #CommandLineTools
